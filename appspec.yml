@@ -2,9 +2,4 @@ version: 	0.0
 os:  linux
 files:
   - source: src/
-    destination: /var/www/html
-hooks:
-   BeforeInstall:
-    - location: scripts/installapache.sh
-      runas: ubuntu
-      timeout: 300
+    destination: /var/
