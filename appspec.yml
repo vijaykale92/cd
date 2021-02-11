@@ -6,5 +6,5 @@ files:
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
-      runas: ec2-user
+      runas: ubuntu
       timeout: 300
